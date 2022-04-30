@@ -2,9 +2,9 @@ public class FizzBuzz {
   private static final int n = 20;
 
   // Prints first n numbers
-    // If n is divisible by 3, prints Fizz
-    // If n is divisible by 5, prints Buzz
-    // If n is divisible by 3 and 5, prints FizzBuzz
+    // If number is divisible by 3, prints Fizz
+    // If number is divisible by 5, prints Buzz
+    // If number is divisible by 3 and 5, prints FizzBuzz
   public static void main(String[] args) {
     for (int i = 1; i <= n; i++) {
       // Divisible by 15 means divisible by 5 and 3
