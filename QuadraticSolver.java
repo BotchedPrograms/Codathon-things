@@ -5,6 +5,7 @@ public class QuadraticSolver {
   
   // Quadratic Solver
   public static void main(String[] args) {
+    // Gets delta a.k.a. the discriminant
     double delta = Math.sqrt((double) (b*b-4*a*c));
     if (b*b-4*a*c < 0) {
       System.out.print("N/A");
