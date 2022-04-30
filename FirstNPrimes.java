@@ -1,5 +1,5 @@
 public class FirstNPrimes {
-  private static final int n;
+  private static final int n = 1000;
 
   public static void main(String[] args) {
     ArrayList<Integer> primes = new ArrayList<>();
