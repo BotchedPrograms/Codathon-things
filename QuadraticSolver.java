@@ -8,7 +8,7 @@ public class QuadraticSolver {
     // Gets delta a.k.a. the discriminant
     double delta = Math.sqrt((double) (b*b-4*a*c));
     if (b*b-4*a*c < 0) {
-      System.out.print("N/A");
+      System.out.print("No real solutions");
     } else if (delta == 0) {
       System.out.print(-b/(2.0*a));
     } else {
