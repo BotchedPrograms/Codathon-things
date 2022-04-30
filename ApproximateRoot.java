@@ -36,6 +36,6 @@ public class ApproximateRoot {
         d2 = d1+d2;
       }
     }
-    return sqrt;
+    System.out.println(sqrt);
   }
 }
