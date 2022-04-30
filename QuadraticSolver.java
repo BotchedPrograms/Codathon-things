@@ -1,7 +1,7 @@
 public class QuadraticSolver {
-  private static final int a;
-  private static final int b;
-  private static final int c;
+  private static final int a = 2;
+  private static final int b = 8;
+  private static final int c = 1;
   
   // Quadratic Solver
   public static void main(String[] args) {
