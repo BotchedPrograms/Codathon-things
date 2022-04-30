@@ -1,6 +1,7 @@
 public class FibonacciNumbers {
   private static final int n = 10;
 
+  // Feels like this could be done much more efficiently, but this works so whatever
   public static void main(String[] args) {
     int num1 = 1;
     int num2 = 1;
