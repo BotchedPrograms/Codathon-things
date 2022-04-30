@@ -3,6 +3,7 @@ public class FizzBuzz {
 
   public static void main(String[] args) {
     for (int i = 1; i <= n; i++) {
+      // Divisible by 15 means divisible by 5 and 3
       if (i % 15 == 0) {
         System.out.print("FizzBuzz ");
       } else if (i % 3 == 0) {
