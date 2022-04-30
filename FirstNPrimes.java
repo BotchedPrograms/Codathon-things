@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class FirstNPrimes {
   private static final int n = 1000;
 
