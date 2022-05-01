@@ -14,7 +14,7 @@ public class ApproximateRoot {
   public static void main(String[] args) {
     int intPart = -1;
     for (int i = 0; i < num; i++) {
-      if (i * i >= num) {
+      if (i * i > num) {
         intPart = i-1;
         break;
       }
