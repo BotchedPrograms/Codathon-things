@@ -1,3 +1,4 @@
+// Gets factorial of a number
 public class Factorial {
   public static long factorial(int n) {
     if (n == 1) {
