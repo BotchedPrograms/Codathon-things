@@ -1,9 +1,7 @@
 // Gets square root without Math library
 public class ApproximateRoot {
-  private static final double num = 69;
-
   // Gets absolute value
-  public static double abs(double num) {
+  public double abs(double num) {
     if (num < 0) {
       return -num;
     }
@@ -11,7 +9,7 @@ public class ApproximateRoot {
   }
 
   // No fancy approximation techniques, just a lot of high or lows until it just so happens to be close to the square root
-  public static void main(String[] args) {
+  public double approxRoot(double num) {
     int intPart = -1;
     for (int i = 0; i < num; i++) {
       if (i * i > num) {
@@ -36,6 +34,6 @@ public class ApproximateRoot {
         d2 = d1+d2;
       }
     }
-    System.out.println(sqrt);
+    return sqrt;
   }
 }
