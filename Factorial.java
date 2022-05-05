@@ -1,6 +1,6 @@
 // Gets factorial of a number
 public class Factorial {
-  public static long factorial(int n) {
+  public long factorial(int n) {
     if (n == 1) {
       return 1;
     }
